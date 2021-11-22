@@ -10,14 +10,14 @@ x2 = float(input('X: '))
 
 y2 = float(input('Y: '))
 
-x_difference = x1 - x2
+x_diff = x1 - x2
 
-y_difference = y1 - y2
+y_diff = y1 - y2
 
-if x_difference == 0:
-    x_difference = x1
+if x_diff == 0:
+    x_diff = x1
 
-k = y_difference / x_difference
+k = y_diff / x_diff
 
 b = y2 - k * x2
 
